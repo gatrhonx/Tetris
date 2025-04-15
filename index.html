@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tetris</title>
+
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  <div class="game-container">
+    <canvas id="tetris" width="240" height="400"></canvas>
+    <canvas id="held-piece" width="100" height="100"></canvas>
+  </div>
+
+  <div class="controls">
+    <button onclick="handleControl('a')">←</button>
+    <button onclick="handleControl('s')">↓</button>
+    <button onclick="handleControl('d')">→</button>
+    <button onclick="handleControl(' ')">Hard Drop</button>
+    <button onclick="handleControl('q')">⟲</button>
+    <button onclick="handleControl('e')">⟳</button>
+    <button onclick="handleControl('c')">Hold</button>
+  </div>
+
+  <link rel="stylesheet" href="style-tetris.css">
+  <script src="tetris.js"></script>
+</body>
+</html>
